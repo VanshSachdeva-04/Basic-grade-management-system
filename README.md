@@ -4,11 +4,17 @@ This is my first project. It is a really basic grading management system with th
 The menu:
 
 ########## Student Record Management ##########
+
         1.    Display all students
+        
         2.    Add student
+        
         3.    Get student by postion
+        
         4.    Replace student
+        
         5.    Remove student
+        
         6.    Exit
 
 The user then enter their choice using numbers from 1 to 6. Then each of these options have different ways of operating. 
