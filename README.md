@@ -1,6 +1,7 @@
 # Trial
 This is my first project. It is a really basic grading management system with the abiliy to load a bunch of students from a file, which includes their names, ID numbers, and GPA. The functionality is displaying all students, adding, getting student by position, removing by position and replacing a student. I implemented this program using the linked list. The file gets updated as soon as you exit out of the program.
 ##The menu:
+
 ##********* Student Record Management *********
 1.    Display all students
 2.    Add student
