@@ -120,7 +120,7 @@ void saveToFile(const LinkedList<Student>& studentList, const string& filename){
         cout << "Error: couldn't open the file." << endl;
         return;
     }
-    for(int i = 0; i <= studentList.getLength(); i++){
+    for(int i = 1; i <= studentList.getLength(); i++){
         outFile << studentList.getEntry(i).toFileString() << endl;
     }
     outFile.close();
