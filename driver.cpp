@@ -117,7 +117,7 @@ int main(){
 void saveToFile(const LinkedList<Student>& studentList, const string& filename){
     ofstream outFile(filename);
     if(!outFile){
-        cout << "Error: couldn't open the file...." << endl;
+        cout << "Error: couldn't open the file." << endl;
         return;
     }
     for(int i = 1; i <= studentList.getLength(); i++){
